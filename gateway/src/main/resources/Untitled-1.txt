@@ -1,0 +1,3 @@
+http :8088/cats name="몽 이" energy=1
+http :8088/customers id="help@uengine.org" address:='{"zipcode":"123", "detail":"..."}'
+http :8088/cartItems customer="http://localhost:8088/customers/help@uengine.org" pet="http://localhost:8088/cats/1"
